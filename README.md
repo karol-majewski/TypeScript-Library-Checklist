@@ -6,7 +6,10 @@
 
 # Create a TypeScript Library
 
-Everything you need to know before publishing a TypeScript library.
+The objective of this guide is to collect everything you need to successfully publish a library
+created with TypeScript.
+
+This includes:
 
 - [x] What are the recommended settings
 - [x] What are the common pitfalls
