@@ -8,10 +8,9 @@ If your library is a wrapper for Web Storage, don't call `window.localStorage` d
 
 ### Bad
 
-When `localStorage` is unavailable (think Safari Private Mode on iOS), this function will throw an
-exception.
+When `localStorage` is unavailable \(think Safari Private Mode on iOS\), this function will throw an exception.
 
-```ts
+```typescript
 function get(key: string): string | null {
   localStorage.get(key);
 }
@@ -19,10 +18,9 @@ function get(key: string): string | null {
 
 ### Good
 
-Your consumers must bring their own `Storage` — be it `localStorage`, `sessionStorage` or a custom
-`Storage`.
+Your consumers must bring their own `Storage` — be it `localStorage`, `sessionStorage` or a custom `Storage`.
 
-```ts
+```typescript
 function get(key: string, storage: Storage): string | null {
   storage.get(key);
 }
@@ -32,8 +30,9 @@ function get(key: string, storage: Storage): string | null {
 
 Your consumers _can_ bring their own `Storage` if they want, and `localStorage` is used by default.
 
-```ts
+```typescript
 function get(key: string, storage: Storage = localStorage): string | null {
   storage.get(key);
 }
 ```
+
