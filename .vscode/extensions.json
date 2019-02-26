@@ -1,0 +1,10 @@
+{
+  "recommendations": [
+    "streetsidesoftware.code-spell-checker",
+    "EditorConfig.EditorConfig",
+    "bierner.markdown-checkbox",
+    "bierner.markdown-preview-github-styles",
+    "esbenp.prettier-vscode",
+    "DavidAnson.vscode-markdownlint"
+  ]
+}

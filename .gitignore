@@ -1,0 +1,4 @@
+.drafts/*
+
+.vscode/*
+!.vscode/extensions.json
