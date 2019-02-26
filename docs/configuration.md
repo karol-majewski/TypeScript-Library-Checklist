@@ -3,9 +3,7 @@
 ## Repository contents
 
 * [ ] Your package has a README. Read more at [makeareadme.com](https://www.makeareadme.com/).
-* [ ] Your package has a license. Not sure which should you choose? Go to
-
-  [choosealicense.com](https://choosealicense.com/).
+* [ ] Your package has a license. Not sure which should you choose? Go to [choosealicense.com](https://choosealicense.com/).
 
 ## `package.json`
 
@@ -19,9 +17,7 @@ Generate the file by running `npm init` or `yarn init`. Once it's done, make sur
   [correct syntax](https://www.typescriptlang.org/docs/handbook/release-notes/typescript-3-1.html)
 
 * [ ] The `files` field includes your JavaScript artifacts as well as your declaration files
-* [ ] A corresponding lockfile \(`package-lock.json` or `yarn.lock`\) is generated and commited to the
-
-  repository
+* [ ] A corresponding lockfile \(either `package-lock.json` or `yarn.lock`\) is generated and committed to the repository
 
 Read more about `package.json` in the [official documentation](https://docs.npmjs.com/files/package.json) and [here](https://github.com/stereobooster/package.json).
 
