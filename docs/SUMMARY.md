@@ -18,4 +18,5 @@
 ## See also
 
 * [Starting an Open Source Project](https://opensource.guide/starting-a-project/)
+* [How to promote your GitHub project](https://hackernoon.com/how-to-promote-your-github-project-1b39a7eee841)
 
